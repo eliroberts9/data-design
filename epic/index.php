@@ -1,7 +1,15 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Eli
- * Date: 7/11/2018
- * Time: 4:22 PM
- */
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Data Design Project</title>
+	</head>
+	<body>
+		<h1>Navigation</h1>
+		<ul>
+			<a href="./conceptual-model.php"><li>Persona</li></a>
+			<a href="./conceptual-model.php"><li>Use case</li></a>
+			<a href="./conceptual-model.php"><li>Conceptual Model</li></a>
+		</ul>
+	</body>
+</html>
