@@ -16,6 +16,7 @@
 				<li>userEmail</li>
 				<li>userPassword</li>
 			</ul>
+			<br />
 
 			<li>Profile</li>
 			<ul>
@@ -27,6 +28,7 @@
 				<li>profilePosts</li>
 				<li>profileComments</li>
 			</ul>
+			<br />
 
 			<li>Comment</li>
 			<ul>
@@ -36,12 +38,14 @@
 				<li>commentDate</li>
 				<li>commentDepth</li>
 			</ul>
+			<br />
 
 			<li>Recommend</li>
 			<ul>
 				<li>recommendProfileId (Foreign Key)</li>
 				<li>recommendCommentId (Foreign Key)</li>
 			</ul>
+			<br />
 
 			<li>Flag</li>
 			<ul>
