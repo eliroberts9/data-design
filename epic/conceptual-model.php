@@ -13,27 +13,19 @@
 			<ul>
 				<li>userId (Primary Key)</li>
 				<li>userActivationToken</li>
-				<li>userEmail</li>
-				<li>userPassword</li>
-			</ul>
-			<br />
-
-			<li>Profile</li>
-			<ul>
-				<li>profileId (Primary Key)</li>
-				<li>profileUserEmail (Foreign Key)</li>
-				<li>profileJoinedDate</li>
-				<li>profileLastLogin</li>
-				<li>profileRecent</li>
-				<li>profilePosts</li>
-				<li>profileComments</li>
+				<li>userHash</li>
+				<li>userJoinDate</li>
+				<li>userLastLogin</li>
+				<li>userRecent</li>
+				<li>userPosts</li>
+				<li>userComments</li>
 			</ul>
 			<br />
 
 			<li>Comment</li>
 			<ul>
 				<li>commentId (Primary Key)</li>
-				<li>commentProfileId (Foreign Key)</li>
+				<li>commentUserId (Foreign Key)</li>
 				<li>commentContent</li>
 				<li>commentDate</li>
 				<li>commentDepth</li>
@@ -42,15 +34,25 @@
 
 			<li>Recommend</li>
 			<ul>
-				<li>recommendProfileId (Foreign Key)</li>
+				<li>recommendUserId (Foreign Key)</li>
 				<li>recommendCommentId (Foreign Key)</li>
 			</ul>
 			<br />
 
 			<li>Flag</li>
 			<ul>
-				<li>flagProfileId (Foreign Key)</li>
+				<li>flagUserId (Foreign Key)</li>
 				<li>flagCommentId (Foreign Key)</li>
+			</ul>
+			<br />
+
+			<li>Relationships</li>
+			<ul>
+				<li>One USER can have many COMMENTS (1 to n).</li>
+				<li>One USER can have many RECOMMENDS (1 to n).</li>
+				<li>One USER can have many FLAGS. (1 to n).</li>
+				<li>One COMMENT can have many RECOMMENDS. (1 to n).</li>
+				<li>One COMMENT can have many FLAGS. (1 to n).</li>
 			</ul>
 		</ul>
 		<a href="./index.php">Home</a>
