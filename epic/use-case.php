@@ -26,10 +26,8 @@
 			<ul>
 				<li>Todd clicks on an article from the homepage.</li>
 				<li>The site brings Todd to a new page displaying the article he clicked.</li>
-				<li>Todd reads the article and decides to comment.</li>
-				<li>Todd hovers his mouse over the "login" icon.</li>
-				<li>Todd clicks the "Comment" button.</li>
-				<li>Site creates a text input form for Todd to write his comment.</li>
+				<li>Todd reads the article and clicks the "Comment" button.</li>
+				<li>The site creates a text input form for Todd to write his comment.</li>
 				<li>Todd writes his comment and clicks "Submit".</li>
 				<li>The site adds Todd's comment to the comment thread and displays it to him.</li>
 			</ul>
