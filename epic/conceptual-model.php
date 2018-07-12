@@ -5,7 +5,9 @@
 		<title>Conceptual Model</title>
 	</head>
 	<body>
+
 		<h1>Entities and Attributes</h1>
+
 		<ul>
 			<li>User</li>
 			<ul>
@@ -14,16 +16,18 @@
 				<li>userEmail</li>
 				<li>userPassword</li>
 			</ul>
+
 			<li>Profile</li>
 			<ul>
 				<li>profileId (Primary Key)</li>
-				<li>profileUserId (Foreign Key)</li>
+				<li>profileUserEmail (Foreign Key)</li>
 				<li>profileJoinedDate</li>
 				<li>profileLastLogin</li>
 				<li>profileRecent</li>
 				<li>profilePosts</li>
 				<li>profileComments</li>
 			</ul>
+
 			<li>Comment</li>
 			<ul>
 				<li>commentId (Primary Key)</li>
@@ -32,11 +36,13 @@
 				<li>commentDate</li>
 				<li>commentDepth</li>
 			</ul>
+
 			<li>Recommend</li>
 			<ul>
 				<li>recommendProfileId (Foreign Key)</li>
 				<li>recommendCommentId (Foreign Key)</li>
 			</ul>
+
 			<li>Flag</li>
 			<ul>
 				<li>flagProfileId (Foreign Key)</li>

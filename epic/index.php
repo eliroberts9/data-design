@@ -5,7 +5,9 @@
 		<title>Data Design Project</title>
 	</head>
 	<body>
+
 		<h1>Navigation</h1>
+
 		<ul>
 			<a href="./toddBishop.php"><li>Persona</li></a>
 			<a href="./use-case.php"><li>Use case</li></a>
