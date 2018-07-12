@@ -23,7 +23,7 @@
 			<ul>
 				<li>commentId (Primary Key)</li>
 				<li>commentUserId (Foreign Key)</li>
-				<li>commentParentId</li>
+				<li>commentParentId (Foreign Key)</li>
 				<li>commentContent</li>
 				<li>commentDate</li>
 			</ul>
