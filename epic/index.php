@@ -12,6 +12,7 @@
 			<a href="./toddBishop.php"><li>Persona</li></a>
 			<a href="./use-case.php"><li>Use case</li></a>
 			<a href="./conceptual-model.php"><li>Conceptual Model</li></a>
+			<a href="./data-design.svg"><li>ERD</li></a>
 		</ul>
 	</body>
 </html>
